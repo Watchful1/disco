@@ -4,6 +4,7 @@ cache: pip
 
 python:
   - '2.7'
+  - '3.6'
   - '3.7'
 
 install:
@@ -13,3 +14,5 @@ install:
 script:
   - python setup.py test
   - flake8 disco/
+
+dist: xenial
